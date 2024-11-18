@@ -1,28 +1,43 @@
 # Sport Data Analysis Project
 
-## 📄 Opis projektu
+## 馃搫 Opis projektu
 
-Ten projekt analizuje dane sportowe, korzystając z pliku CSV zawierającego szczegółowe informacje o parametrach fizjologicznych sportowców. Analiza obejmuje przetwarzanie danych, eksplorację oraz wizualizację wyników.
+Ten projekt analizuje dane sportowe, korzystaj膮c z pliku CSV zawieraj膮cego szczeg贸艂owe informacje o parametrach fizjologicznych sportowc贸w. Analiza obejmuje przetwarzanie danych, eksploracj臋 oraz wizualizacj臋 wynik贸w.
 
 ---
 
-## 📁 Zawartość repozytorium
+## 馃搧 Zawarto艣膰 repozytorium
 
-- **`sport.csv`**: Plik zawierający dane wejściowe.
-- **`Sport.ipynb`**: Notatnik Jupyter Notebook z analizą danych.
+- **`sport.csv`**: Plik zawieraj膮cy dane wej艣ciowe.
+- **`Sport.ipynb`**: Notatnik Jupyter Notebook z analiz膮 danych.
 - **`README.md`**: Dokumentacja projektu.
 
 ---
 
-## 📊 Struktura danych
+## 馃搳 Struktura danych
 
-Plik **`sport.csv`** zawiera 161 wierszy i 29 kolumn. Poniżej opis najważniejszych kolumn:
+Plik **`sport.csv`** zawiera 161 wierszy i 29 kolumn. Poni偶ej opis najwa偶niejszych kolumn:
+
+- **`sex`**: P艂e膰 sportowca (1 - m臋偶czyzna, 0 - kobieta).
+- **`date`**: Data zbierania danych.
+- **`age`**: Wiek sportowca (w latach).
+- **`height`**: Wzrost sportowca (w cm).
+- **`weight`**: Waga sportowca (w kg).
+- **`discipline`**: Dyscyplina sportowa (np. "running", "triathlon").
+- **`AeT`**: T臋tno na progu tlenowym.
+- **`AnT`**: T臋tno na progu beztlenowym.
+- **`vo2max`**: Maksymalne zu偶ycie tlenu (ml/kg/min).
+- **`vo2_at`**: Zu偶ycie tlenu na progu tlenowym.
+- **`hrmax`**: Maksymalne t臋tno.
+- **`la_10`, `la_12`, `la_14`**: Poziomy mleczanu (mmol/l) przy r贸偶nych poziomach t臋tna.
+
+*(Pe艂na lista kolumn jest dost臋pna w pliku CSV.)*
 
 ---
 
-## 🔧 Wymagania
+## 馃敡 Wymagania
 
-Projekt wymaga zainstalowania następujących zależności:
+Projekt wymaga zainstalowania nast臋puj膮cych zale偶no艣ci:
 
 - **Python**: Wersja 3.7 lub nowsza.
 - **Biblioteki Python**:
@@ -31,14 +46,14 @@ Projekt wymaga zainstalowania następujących zależności:
   - `matplotlib`
   - `seaborn`
 
-Zaleca się korzystanie ze środowiska wirtualnego (virtualenv lub conda).
+Zaleca si臋 korzystanie ze 艣rodowiska wirtualnego (virtualenv lub conda).
 
 ---
 
-## 🚀 Instalacja
+## 馃殌 Instalacja
 
 1. **Sklonuj repozytorium:**
 
    ```bash
-   git clone https://github.com/MistalH/Sport
+   git clone https://github.com/TwojaNazwaUzytkownika/sport-data-analysis.git
    cd sport-data-analysis
