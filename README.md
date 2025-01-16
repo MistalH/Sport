@@ -1,43 +1,43 @@
 # Sport Data Analysis Project
 
-## 馃搫 Opis projektu
+## 🏈 Opis projektu
 
-Ten projekt analizuje dane sportowe, korzystaj膮c z pliku CSV zawieraj膮cego szczeg贸艂owe informacje o parametrach fizjologicznych sportowc贸w. Analiza obejmuje przetwarzanie danych, eksploracj臋 oraz wizualizacj臋 wynik贸w.
+Ten projekt analizuje dane sportowe, korzystając z pliku CSV zawierającego szczegółowe informacje o parametrach fizjologicznych sportowców. Analiza obejmuje przetwarzanie danych, eksplorację oraz wizualizację wyników.
 
 ---
 
-## 馃搧 Zawarto艣膰 repozytorium
+## 📇 Zawartość repozytorium
 
-- **`sport.csv`**: Plik zawieraj膮cy dane wej艣ciowe.
-- **`Sport.ipynb`**: Notatnik Jupyter Notebook z analiz膮 danych.
+- **`sport.csv`**: Plik zawierający dane wejściowe.
+- **`Sport.ipynb`**: Notatnik Jupyter Notebook z analizą danych.
 - **`README.md`**: Dokumentacja projektu.
 
 ---
 
-## 馃搳 Struktura danych
+## 📊 Struktura danych
 
-Plik **`sport.csv`** zawiera 161 wierszy i 29 kolumn. Poni偶ej opis najwa偶niejszych kolumn:
+Plik **`sport.csv`** zawiera 161 wierszy i 29 kolumn. Poniżej opis najważniejszych kolumn:
 
-- **`sex`**: P艂e膰 sportowca (1 - m臋偶czyzna, 0 - kobieta).
+- **`sex`**: Płeć sportowca (1 - mężczyzna, 0 - kobieta).
 - **`date`**: Data zbierania danych.
 - **`age`**: Wiek sportowca (w latach).
 - **`height`**: Wzrost sportowca (w cm).
 - **`weight`**: Waga sportowca (w kg).
 - **`discipline`**: Dyscyplina sportowa (np. "running", "triathlon").
-- **`AeT`**: T臋tno na progu tlenowym.
-- **`AnT`**: T臋tno na progu beztlenowym.
-- **`vo2max`**: Maksymalne zu偶ycie tlenu (ml/kg/min).
-- **`vo2_at`**: Zu偶ycie tlenu na progu tlenowym.
-- **`hrmax`**: Maksymalne t臋tno.
-- **`la_10`, `la_12`, `la_14`**: Poziomy mleczanu (mmol/l) przy r贸偶nych poziomach t臋tna.
+- **`AeT`**: Tętno na progu tlenowym.
+- **`AnT`**: Tętno na progu beztlenowym.
+- **`vo2max`**: Maksymalne zużycie tlenu (ml/kg/min).
+- **`vo2_at`**: Zużycie tlenu na progu tlenowym.
+- **`hrmax`**: Maksymalne tętno.
+- **`la_10`, `la_12`, `la_14`**: Poziomy mleczanu (mmol/l) przy różnych poziomach tętna.
 
-*(Pe艂na lista kolumn jest dost臋pna w pliku CSV.)*
+*(Pełna lista kolumn jest dostępna w pliku CSV.)*
 
 ---
 
-## 馃敡 Wymagania
+## 📁 Wymagania
 
-Projekt wymaga zainstalowania nast臋puj膮cych zale偶no艣ci:
+Projekt wymaga zainstalowania następujących zależności:
 
 - **Python**: Wersja 3.7 lub nowsza.
 - **Biblioteki Python**:
@@ -46,11 +46,11 @@ Projekt wymaga zainstalowania nast臋puj膮cych zale偶no艣ci:
   - `matplotlib`
   - `seaborn`
 
-Zaleca si臋 korzystanie ze 艣rodowiska wirtualnego (virtualenv lub conda).
+Zaleca się korzystanie ze środowiska wirtualnego (virtualenv lub conda).
 
 ---
 
-## 馃殌 Instalacja
+## 🚜 Instalacja
 
 1. **Sklonuj repozytorium:**
 
