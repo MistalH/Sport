@@ -55,5 +55,5 @@ Zaleca się korzystanie ze środowiska wirtualnego (virtualenv lub conda).
 1. **Sklonuj repozytorium:**
 
    ```bash
-   git clone https://github.com/TwojaNazwaUzytkownika/sport-data-analysis.git
-   cd sport-data-analysis
+   git clone https://github.com/MistalH/Sport
+   cd Sport
